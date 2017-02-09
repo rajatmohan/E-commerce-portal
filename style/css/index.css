@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.warning{
+	text-align:center;
+	padding:10px 20px 10px 20px;
+	background-color:rgba(217,80,82,1.00);
+	position:absolute;
+	left:42%;
+	top:50%;
+	height:60px;
+	width:300px;
+	border:solid 2px;
+	border-radius:5%;
+}
+#logo_o{
+	height:50px;
+	width:50px;
+	border-top:solid 7px #F53235;
+	border-bottom:solid 7px #EF7A20;
+	border-left:solid 7px #EF7A20;
+	border-right:solid 7px #EF7A20;
+	border-radius:50%;
+	animation:logo 1.5s linear infinite;
+}
+@keyframes logo{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}
+}
+.logo_text{
+	font-size:40px;
+	color:#F53235;
+}
+#logo_mini{
+	font-weight:100;
+}
+#logo_lx{
+	font-weight:200;
+}

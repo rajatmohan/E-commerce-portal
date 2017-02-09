@@ -1,0 +1,8 @@
+books
+cycle (girls)
+cycle (boys)
+mattress
+bucket
+notes
+phones
+laptops
